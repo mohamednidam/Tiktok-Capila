@@ -34,7 +34,7 @@
 
         // Fire off the request to /form.php
         request = $.ajax({
-            url: "https://www.capila.site/go/?order=2U5Pcv5gOYy8ZaZ36Q5XjeWbJn6XlM",
+            url: "https://script.google.com/macros/s/AKfycbze3WR6DlGfK7HB2U8V4Q4N7F8UKoSeqafdyiInQJqyXFDiPowh1xtXVA/exec",
             type: "post",
             data: serializedData
         });
