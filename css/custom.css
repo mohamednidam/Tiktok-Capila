@@ -1,0 +1,14 @@
+.section-heading {
+    display: block;
+}
+.thanks-products {
+    display: none;
+}
+.woocommerce-order p{
+    display: none;
+}
+.wp-block-button__link {
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+    direction: rtl;
+    font-weight: bold;
+}
