@@ -9078,7 +9078,7 @@ input#review_image {
 
 @media (max-width: 767px) {
   .custom-logo-link img {
-    max-height: 35px;
+    max-height: 40px;
   }
   .head-mast {
     padding: 0;
