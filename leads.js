@@ -1,5 +1,0 @@
-var request;var url=window.location.href;document.addEventListener("DOMContentLoaded",function(){document.getElementById('url').value=url});document.getElementById("orderform").addEventListener("submit",function(event){document.getElementById('loading').style.display='block';if(request){request.abort()}
-var form=this;var inputs=form.querySelectorAll("input, select, button, textarea");var serializedData=new FormData(form);for(var i=0;i<inputs.length;i++){inputs[i].disabled=!0}
-request=new XMLHttpRequest();request.open("POST","https://www.capila.site/go/?order=gf2yvDHuvsstN5jsv7cdeiJX6yCtTU");request.onreadystatechange=function(){if(request.readyState===XMLHttpRequest.DONE){if(request.status===200){console.log("Hooray, it worked!");console.log(request.responseText)}else{console.error("The following error occurred: ",request.status,request.statusText)}
-for(var i=0;i<inputs.length;i++){inputs[i].disabled=!1}
-console.log("It's running");document.getElementById('loading').style.display='none';window.location.href='thanks.html'}};request.send(serializedData);event.preventDefault()})
